@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppProject.Drinks">
+    <ContentPage.Content>
+        <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+            <StackLayout  VerticalOptions="StartAndExpand" BackgroundColor="LightGray">
+
+            <!--Page header and image-->
+            <BoxView BackgroundColor="LightGray"/>
+            <Label Text="GALWAY PUBS JUST THE DRINKS" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="peopledrinking.jpg" Grid.Row="1" Aspect="AspectFill" WidthRequest="100" HeightRequest="250"/>
+            
+            <!--Display pubs around galway just for drinks tonerys bar -->
+            <BoxView BackgroundColor="LightGray"/>
+            <Label Text="Tonerys Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="tonerysbar.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="Tonerys Bar is a family run bar that, is nice an cosy if your looking for a nice and relaxed atmosphere
+                   located at the top of Bohermore side of town. You will enjoy the great pints on offer here try the Guinness here
+                   a well kept pint that is frequently drank by the locals."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 144 Bohermore"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="               Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 331 071"/>
+                <!--Display pubs around galway just for drinks crowes bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="Crowe's Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="crowesbar.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Crowe's bar is another family run Bohermore pub, a great pub to meet locals and you are sure to meet a few of the local characters. Again another pub with a well kept pint"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 90 Bohermore"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code H91 DX27"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 565 922"/>
+                <!--Display pubs around galway just for drinks Lough Inn bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="The Lough Inn" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="theloughinn.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="The Lough Inn is situated in the Woodquay area of Galway, a pub that has a lot of characters drinking in it if Tom the barman is on you are guaranteed good banter!"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 32 WoodQuay Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 087 399 1195"/>
+                <!--Display pubs around galway just for drinks Freeney's bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="Freeney's Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="freeneys.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Freeney's right in the heart of the city center, it has a great location well also a very good pint of Guinness. Some say the best in Galway you can decide that!"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 19 High Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="               Eire Code H91 TD79"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 562 609"/>
+                <!--Display pubs around galway just for Murphys bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="Murphy's Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="murphys.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Murphy's bar located right oppposite Feeney's bar, similar pubs that both acclaim to have the best Guinness. Also located near a Ladbrokes bookies if gambling is your thing"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 9 High Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="               Eire Code H91 KW97"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 564 589"/>
+                <!--Display pubs around galway just for drinks Hughes bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="Hughes Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="hughes.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Hughes bar another place that is frequented by local characters, a really good atmosphere if gambling is your thing Paddy Power just next door. Make sure to pop in if local GAA side Liam Mellows are playing"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 14 Woodquay Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="               Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 565 943"/>
+                <!--Display pubs around galway just for drinks E Brun bar -->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="E Brun Bar" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="ebrun.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Located on the west side of Galway City, another pub that you are going to meet locals. Another good pint do have live music sundays"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 55 Lower Dominic Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="               Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 565 821"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

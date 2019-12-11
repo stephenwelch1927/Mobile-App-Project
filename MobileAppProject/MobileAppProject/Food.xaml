@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppProject.Food">
+    <ContentPage.Content>
+        <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+            <StackLayout  VerticalOptions="StartAndExpand" BackgroundColor="LightGray">
+
+                <!--Page header and image-->
+                <BoxView BackgroundColor="LightGray"/>
+                <Label Text="GALWAY PUBS THE FOOD" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="peopleeating.jpg" Aspect="AspectFill" WidthRequest="100" HeightRequest="250"/>
+                <BoxView BackgroundColor="LightGray"/>
+                <!--Display pubs around galway just for food the quay's -->
+                <Label Text="The Quay's" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="thequays.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="The Quays bar is located in Galways Latin quarter, a fine big spacious pub that serves carvery lunch as well as an evening table service. A must for traditional Irish food."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 11 Quay Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 568 347"/>
+                <!--Display pubs around galway just for food Harry's bar -->
+                <Label Text="Harry's" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="harrys.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="Harry's bar located in the Bohermore side of town, serves good pub food the burger menu is very popular."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 77 Bohermore"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code H91 E7FN"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 085 862 1840"/>
+                <!--Display pubs around galway just for food The Front Door -->
+                <Label Text="The Front Door" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="frontdoor.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="The Front door located right in the heart of the city, has a variety of different options on its menu."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 8 Cross Street Upper"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code H91 YY06"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 563 757"/>
+                <!--Display pubs around galway just for food the imperial hotel -->
+                <Label Text="The Imperial Hotel" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="imperial.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="The Imperial hotel located on Eyre square has a fantastic carvery menu and very reasonable prices."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: Eyre Square"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 563 033"/>
+                <!--Display pubs around galway just for food the An Pucan -->
+                <Label Text="An Pucan" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                <Image Source="anpucan.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                <Label TextColor="Black" Text="An Pucan has a variety of food on offere, they also have a seafood menu if that is your thing."/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 11 Forster Street"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+                <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 376 561"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

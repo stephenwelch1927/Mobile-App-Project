@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppProject.Music">
+    <ContentPage.Content>
+    <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+        <StackLayout  VerticalOptions="StartAndExpand" BackgroundColor="LightGray">
+
+            <!--Page header and image-->
+            <BoxView BackgroundColor="LightGray"/>
+            <Label Text="GALWAY PUBS LIVE MUSIC" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="livemusic.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="250"/>
+            <BoxView BackgroundColor="LightGray"/>
+            <!--Display pubs around galway for music quay's -->
+            <Label Text="The Quay's" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="thequays.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="The Quays bar as well as serving good food, at night they have some very good live music."/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 11 Quay Street"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 568 347"/>
+            <!--Display pubs around galway music taaffes -->
+            <Label Text="Taaffe's" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="taaffes.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="Taaffe's bar in the heart of Galway, well known for its traditional Irish music if you are able to play an instrument why not join in!"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 19 Shop Street"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 564 066"/>
+            <!--Display pubs around galway music tig coili -->
+            <Label Text="Tig Coili" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="tigcoili.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="Located right across from Taaffe's bar, same kind of theme a pub for traditional irish music and good pints."/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: Mainguard Street"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 563 294"/>
+            <!--Display pubs around galway just for Roisin Dubh -->
+            <Label Text="Roisin Dubh" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="roisindubh.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="Roisin Dubh located in the west side of the city, this live band venue has a variety of different music."/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 9 Dominic Street Upper"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 586 540"/>
+            <!--Display pubs around galway just for food the An Pucan -->
+            <Label Text="An Pucan" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="anpucan.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="An Pucan as well as food also has live music as well as some traditional Irish music during the day."/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 11 Forster Street"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 376 561"/>
+            <!--Display pubs around galway music  -->
+            <Label Text="Monroe's Live" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+            <Image Source="monroes.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+            <Label TextColor="Black" Text="Monroe's another live music venue located in the west of the city, some big name acts can often be seen here."/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 14 Dominic Street Upper"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+            <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 583 397"/>
+            </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileAppProject"
+             x:Class="MobileAppProject.MainPage">
+    <Grid RowSpacing="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        
+        <!--Header background with Image-->
+        <BoxView BackgroundColor="White" Grid.Row="0" />
+        <Image Source="galwaycity.jpg" Aspect="AspectFill"/>
+        
+        <!-- Image button to show all the pubs that have just pints -->
+
+        <ImageButton Source="pint.jpg" Grid.Row="1" HorizontalOptions="Center" WidthRequest="100" BorderWidth="3" BorderColor="Black" Clicked="ImageButton_Clicked"/>
+
+        <!-- Image button to show all the pubs that serve food-->
+        <BoxView BackgroundColor="White" Grid.Row="2"/>
+        <ImageButton Source="food.jpg" Grid.Row="2" HorizontalOptions="Center" WidthRequest="100" BorderWidth="3" BorderColor="Black" Clicked="ImageButton_Clicked_1"/>
+
+        <!-- Image button to show all pubs that show live music-->
+        <BoxView BackgroundColor="White" Grid.Row="3"/>
+        <ImageButton Source="music.jpg" BackgroundColor="Black"  Grid.Row="3" HorizontalOptions="Center" WidthRequest="100" BorderWidth="3" BorderColor="Black" Clicked="ImageButton_Clicked_2"/>
+        <BoxView BackgroundColor="White" Grid.Row="4"/>
+        
+        <!--Image button to show pubs with wheelchair accessability-->
+        <ImageButton Source="download.png" Grid.Row="4" HorizontalOptions="Center" VerticalOptions="FillAndExpand" WidthRequest="100" BorderWidth="3" BorderColor="Black" Clicked="ImageButton_Clicked_3"/>
+        
+        <BoxView BackgroundColor="White" Grid.Row="5"/>
+    </Grid>
+
+</ContentPage>

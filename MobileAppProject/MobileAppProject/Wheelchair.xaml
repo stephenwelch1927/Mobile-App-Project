@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppProject.Wheelchair">
+    <ContentPage.Content>
+        <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+                <StackLayout  VerticalOptions="StartAndExpand" BackgroundColor="LightGray">
+
+                    <!--Page header and image-->
+                    <BoxView BackgroundColor="LightGray"/>
+                    <Label Text="WHEELCHAIR ACCESSIBLE" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                    <Image Source="accessible.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="250"/>
+                    <BoxView BackgroundColor="LightGray"/>
+                    <!--Display pubs around galway for wheelchair access McGettigans -->
+                    <Label Text="McGettigans" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                    <Image Source="mcgettigans.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                    <Label TextColor="Black" Text="McGettigans is wheelchair accessible its toilets are located on the ground floor and have a ramp to enter the pub."/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 9-11 Prospect Hill"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code H91 VK27"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 331 010"/>
+                    <!--Display pubs around galway for wheechair access An Pucan -->
+                    <Label Text="An Pucan" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                    <Image Source="anpucan.jfif" Aspect="AspectFill" WidthRequest="100" HeightRequest="200"/>
+                    <Label TextColor="Black" Text="An Pucan is wheelchair accessible it has toilets located on the ground floor for wheelchair users."/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="Address: 11 Forster Street"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="           Galway City"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="              Eire Code N/A"/>
+                    <Label HorizontalOptions="Center" TextColor="Black" Text="Phone No: 091 376 561"/>
+                    <!--Review Section -->
+                    <Label Text="Review" TextColor="Maroon" HorizontalOptions="CenterAndExpand" FontSize="Large" FontFamily="" BackgroundColor="LightGray"/>
+                    <Editor x:Name="Review1" Placeholder="Please enter a review here please start with eg @McGettigans before your review"/>
+                    <Button Text="Submit Review" WidthRequest="100" HeightRequest="100"/>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
